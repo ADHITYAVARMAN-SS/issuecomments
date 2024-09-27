@@ -59,6 +59,6 @@ public class GitLabCommentService {
         }
 
         JSONObject responseObject = response.getBody().getObject();
-        return responseObject.getString("url");  // Returns the uploaded file URL
+        return responseObject.getString("url");
     }
 }
